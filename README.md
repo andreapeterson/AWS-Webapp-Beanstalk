@@ -10,5 +10,6 @@ For the backend: I used RDS for the database, ElastiCache for caching, and Activ
 For details on some specifics of the project, I created a temporary EC2 instance to initialize the database by running SQL queries. I still used Maven to build an artifact but this time I uploaded it directly to the Beanstalk environment via console.
 
 I am doing a course from the wonderful Imran Teli, so the code above comes mostly from [here](https://github.com/hkhcoder/vprofile-project). I edited the 'applications.properties' file so my Tomcat instances can have the endpoints for my backend services as well as customized the 'welcome.jsp' and images folder to add content specific for my pup, Milo.
-![image](https://github.com/andreapeterson/AWS-Webapp-Beanstalk/assets/134665743/50f4476e-7e7d-4f4e-beda-0ade0ffb857e)
+
+<img width="805" alt="Screenshot 2024-01-19 at 3 59 58 PM" src="https://github.com/andreapeterson/AWS-Webapp-Beanstalk/assets/134665743/93611f22-1561-4804-9156-4a6a0632c67d">
 
